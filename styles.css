@@ -1,0 +1,155 @@
+html,
+body {
+  background-color: #16191f;
+}
+.hero {
+  background-image: linear-gradient(to bottom, #ffffff00, #16191f),
+    url('assets/hero.jpg');
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#services {
+  background-color: #16191f;
+  color: white;
+}
+.heroInfo {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+h1 {
+  max-width: 20ch;
+  margin-bottom: 2rem;
+}
+.heroInfo a {
+  color: white;
+  text-decoration: none;
+  background-color: #ff7607;
+  padding: 0.5rem 3rem;
+  display: inline;
+  width: 200px;
+  text-align: center;
+}
+nav {
+  margin-right: 7%;
+}
+.ourServices {
+  text-align: center;
+}
+.ourServices p {
+  max-width: 70ch;
+  margin: 2rem auto;
+}
+.ourServices p:nth-of-type(2) {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.memberships {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  height: 300px;
+  overflow: hidden;
+  background-color: #222630;
+  border-radius: 20px;
+}
+/* .memberships img {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, blue, pink);
+} */
+.memberships .right {
+  background-image: linear-gradient(to left, #ffffff00, #222630),
+    url('assets/hero.jpg');
+  background-size: cover;
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 1rem;
+}
+.right {
+  width: 50%;
+}
+.group {
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+.classes,
+.residents {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  height: 300px;
+  overflow: hidden;
+  background-color: #222630;
+  border-radius: 20px;
+}
+.classes .left {
+  width: 60%;
+}
+.classes .right {
+  width: 60%;
+}
+.classes .right {
+  background-image: linear-gradient(to left, #ffffff00, #222630),
+    url('assets/worker1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+}
+.residents .right {
+  background-image: linear-gradient(to left, #ffffff00, #222630),
+    url('assets/worker2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+}
+#faq {
+  display: flex;
+  margin: 0 auto;
+  background-color: #222630;
+  color: white;
+}
+#faq img {
+  width: 100%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+#faq h2 {
+  text-align: center;
+}
+#faq .right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#faq button {
+  color: white;
+  background-color: #32363f;
+}
+.accordion-body {
+  color: white;
+  background-color: #32363f;
+}
+.accordion-item {
+  border: none;
+  background-color: #32363f;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
