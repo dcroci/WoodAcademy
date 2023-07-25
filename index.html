@@ -11,6 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/94983fc221.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="hero">
@@ -18,6 +22,14 @@
         <nav>
           <div class="navLinks">
             <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <img src="assets/wood.png" alt="" /> Wood Academy
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                ></a>
+              </li>
               <li class="nav-item">
                 <a
                   class="nav-link active text-light"
@@ -43,14 +55,14 @@
         </nav>
         <section class="heroInfo">
           <h1 class="text-light">Wood Academy Empowers Future Woodworkers</h1>
-          <a href="">Get Started</a>
+          <a href="" class="btn">Get Started</a>
         </section>
       </header>
     </div>
     <main>
       <section id="services">
         <section class="ourServices">
-          <h2>Our Services</h2>
+          <h2 class="bold">Our Services</h2>
           <p>
             We are a center of excellence for the craft of woodworking. Our
             first facility is in Sydney Australia. We are targeting existing
@@ -60,29 +72,38 @@
         </section>
         <section class="memberships">
           <div class="left">
-            <h3>Memberships</h3>
+            <h3 class="bold">Memberships</h3>
             <p>
               Memberships for woodworkers to access our professional facility to
               work on their own projects under the guidance of a tutor.
             </p>
-            <p>Learn More</p>
+            <div class="flexIt">
+              <p>Learn More</p>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
           </div>
           <div class="right"></div>
         </section>
         <div class="group">
           <section class="classes">
             <div class="left">
-              <h3>Classes</h3>
+              <h3 class="bold">Classes</h3>
               <p>Woodworking classes (beginner to advance)</p>
-              <p>Learn More</p>
+              <div class="flexIt">
+                <p>Learn More</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
             </div>
             <div class="right"></div>
           </section>
           <section class="residents">
             <div class="left">
-              <h3>Residents</h3>
+              <h3 class="bold">Residents</h3>
               <p>Residents (co-working space for professional woodworkers).</p>
-              <p>Learn More</p>
+              <div class="flexIt">
+                <p>Learn More</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
             </div>
             <div class="right"></div>
           </section>
@@ -94,7 +115,7 @@
             <img src="assets/faq.jpg" alt="" />
           </div>
           <div class="right">
-            <h2>Frequently Asked Questions</h2>
+            <h2 class="bold">Frequently Asked Questions</h2>
             <div class="accordion">
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -239,22 +260,76 @@
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Ready to Build Your Future?</h2>
+      <section id="future">
+        <div class="left">
+          <h2 class="bold">Ready to Build Your Future?</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
             suscipit, voluptate fuga alias tenetur in animi eum blanditiis quasi
             dicta?
           </p>
-          <a href="">Register Now</a>
+          <a href="" class="btn">Register Now</a>
         </div>
-        <figure>
-          <img src="" alt="" />
-          <figcaption>Sydney, Australia</figcaption>
+        <figure class="right">
+          <figcaption>
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="bold">Sydney, Australia</p>
+          </figcaption>
         </figure>
       </section>
     </main>
+    <footer>
+      <div class="spread">
+        <ul>
+          <li><img src="assets/wood.png" alt="" /> Wood Academy</li>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Reprehenderit officiis quidem tempore!
+          </li>
+          <li>
+            <ul>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-facebook"></i></li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li><h4>What we do</h4></li>
+          <li>Home</li>
+          <li>How it Works</li>
+          <li>Features</li>
+          <li>Our Products</li>
+          <li>Blog</li>
+        </ul>
+        <ul>
+          <li><h4>Who we are</h4></li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Careers</li>
+          <li>FAQ</li>
+          <li>Help</li>
+        </ul>
+        <ul>
+          <li><h4>Work</h4></li>
+          <li>KuuCall Phone Tracking</li>
+          <li>Loodswezen</li>
+        </ul>
+        <ul>
+          <li><h4>Office</h4></li>
+          <li>
+            <address>3051 Ranchwiew Dr. Richardson, California 62639</address>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <footer>
+      <ul>
+        <li>Copyright 2023 Wood Academy. All Rights Reserved.</li>
+        <li>Terms of Service</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
