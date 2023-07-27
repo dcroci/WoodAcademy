@@ -75,6 +75,7 @@ nav {
   background-image: linear-gradient(to left, #ffffff00, #222630),
     url('assets/memberships.jpg');
   background-size: cover;
+  width: 80%;
 }
 .left {
   width: 50%;
@@ -284,4 +285,20 @@ nav-item {
 }
 .flexIt p {
   margin: 0;
+}
+
+@media (max-width: 800px) {
+  #services .group {
+    flex-direction: column;
+  }
+  .memberships,
+  .group {
+    width: 90%;
+  }
+  .memberships .left p {
+    font-size: 1rem;
+  }
+  #services .left {
+    width: 145px;
+  }
 }
