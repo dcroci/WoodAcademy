@@ -380,5 +380,14 @@ nav-item {
     justify-content: center;
     font-weight: bold;
   }
-  .nav-item;
+  footer .spread {
+    width: 100%;
+  }
+  footer:nth-of-type(2) ul {
+    width: 100%;
+  }
+  #services .left {
+    min-width: 130px;
+    width: 130px;
+  }
 }
